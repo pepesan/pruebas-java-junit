@@ -50,11 +50,9 @@ public class TestAssert {
     public void testGetTheSameObject() {
         String s= new String();
 
-        assertSame   (s,
-                s);
+        assertSame   (s,s);
         String s2=new String();
-        assertNotSame(s,
-                s2);
+        assertNotSame(s,s2);
     }
     @Test
     public void testWithMatchers() {
