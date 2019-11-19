@@ -40,10 +40,12 @@ public class TestMockito {
 
         //following prints "first"
         System.out.println(mockedList.get(0));
-
-        //following throws runtime exception
-        System.out.println(mockedList.get(1));
-
+        try {
+            //following throws runtime exception
+            System.out.println(mockedList.get(1));
+        }catch (Exception e){
+            System.out.println("Tratamiento de la excepción");
+        }
         //following prints "null" because get(999) was not stubbed
         System.out.println(mockedList.get(999));
 
