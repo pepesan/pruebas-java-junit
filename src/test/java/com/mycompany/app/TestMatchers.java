@@ -34,9 +34,8 @@ public class TestMatchers {
         assertThat("Hola", is(equalTo("Hola")));
         assertThat("Hola", is(not(equalTo("Holas"))));
         assertThat("Hola", containsString("Ho"));
-        assertEquals("abc", 123);
         assertThat("test", anyOf(is("test"), containsString("te")));
-        assertThat(new String[] {"test3", "test4"}, is(new String[] {"test1", "test2"}));
+        //assertThat(new String[] {"test3", "test4"}, is(new String[] {"test1", "test2"}));
         assertThat(true, is(true));
         assertThat(false, is(false));
         assertThat(null, nullValue());
