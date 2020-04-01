@@ -1,7 +1,8 @@
 package com.mycompany.app.mock;
 
-import com.mycompany.app.Controlador;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -11,8 +12,11 @@ public class ControladorUnitTest {
     public void iniciaGuay(){
        Controlador c = new Controlador();
        assertNotNull(c);
-       assertEquals("",c.getData());
+       assertNotNull(c.getData());
+       assertNotNull(c.getServicio());
+       assertEquals(new ArrayList<String>(),c.getData());
     }
+    /*
     @Test
     public void procesaDataGuay(){
         Controlador c = new Controlador();
@@ -20,4 +24,6 @@ public class ControladorUnitTest {
         c.procesaData();
         assertEquals("Hola!", c.getData());
     }
+
+     */
 }
