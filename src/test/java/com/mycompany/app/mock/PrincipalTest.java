@@ -1,5 +1,6 @@
-package com.mycompany.app;
+package com.mycompany.app.mock;
 
+import com.mycompany.app.Principal;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertNotNull;

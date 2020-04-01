@@ -1,5 +1,6 @@
-package com.mycompany.app;
+package com.mycompany.app.cucumber;
 
+import com.mycompany.app.Calculadora;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

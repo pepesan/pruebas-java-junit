@@ -1,5 +1,6 @@
-package com.mycompany.app;
+package com.mycompany.app.asserts;
 
+import com.mycompany.app.Persona;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

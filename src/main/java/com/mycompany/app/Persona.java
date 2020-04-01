@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 public class Persona {
     private String nombre;
     private Integer edad;
-    Persona(){
+    public Persona(){
         this.nombre = "";
         this.edad = 0;
     }

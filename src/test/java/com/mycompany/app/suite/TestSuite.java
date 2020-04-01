@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.app.suite;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.app.fixtures;
 
 import org.junit.*;
 

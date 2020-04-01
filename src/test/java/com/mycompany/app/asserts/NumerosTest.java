@@ -1,6 +1,8 @@
-package com.mycompany.app;
+package com.mycompany.app.asserts;
 
 import static org.junit.Assert.*;
+
+import com.mycompany.app.Numeros;
 import org.junit.Test;
 
 public class NumerosTest {

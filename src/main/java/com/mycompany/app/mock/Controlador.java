@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.app.mock;
 
 public class Controlador {
     private Servicio servicio;
