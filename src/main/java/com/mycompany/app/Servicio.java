@@ -1,4 +1,4 @@
-package com.mycompany.app.mock;
+package com.mycompany.app;
 
 public class Servicio {
     public String getData(){

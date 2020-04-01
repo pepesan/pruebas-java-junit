@@ -1,7 +1,7 @@
 package com.mycompany.app.mock;
 
-import com.mycompany.app.mock.Controlador;
-import com.mycompany.app.mock.Servicio;
+import com.mycompany.app.Controlador;
+import com.mycompany.app.Servicio;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

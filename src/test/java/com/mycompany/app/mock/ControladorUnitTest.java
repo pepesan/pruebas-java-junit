@@ -1,6 +1,6 @@
 package com.mycompany.app.mock;
 
-import com.mycompany.app.mock.Controlador;
+import com.mycompany.app.Controlador;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

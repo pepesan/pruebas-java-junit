@@ -1,9 +1,9 @@
-package com.mycompany.app.mock;
+package com.mycompany.app;
 
 public class Controlador {
     private Servicio servicio;
     private String data;
-    Controlador(){
+    public Controlador(){
         this.servicio = new Servicio();
         this.data = "";
     }

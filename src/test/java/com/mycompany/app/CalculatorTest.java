@@ -2,13 +2,26 @@ package com.mycompany.app;
 
 import static org.junit.Assert.assertEquals;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
+
 public class CalculatorTest {
     Calculator calculator;
     @Before
     public void antes(){
         calculator = new Calculator();
+        System.out.println("antes de un test");
+    }
+    @After
+    public void despues(){
+        System.out.println("después de un test");
+    }
+    @BeforeClass
+    public static void antesClase(){
+        System.out.println("antes de clase");
+    }
+    @AfterClass
+    public static void despuesClase(){
+        System.out.println("despues de clase");
     }
     @Test
     public void evaluatesExpression() {
