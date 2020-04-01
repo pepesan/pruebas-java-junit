@@ -17,4 +17,9 @@ public class CalcuTest {
     public void sumaOtroTest(){
         assertEquals(7,Calcu.add(2,5));
     }
+
+    @Test
+    public void sumaBienTest(){
+        assertNotEquals(1, Calcu.add(2,5));
+    }
 }
