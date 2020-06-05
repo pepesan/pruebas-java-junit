@@ -39,5 +39,6 @@ public class StepNavegacion {
     @Then("^debería ver el dato en la caja de búsqueda$")
     public void deberíaVerElDatoEnLaCajaDeBúsqueda() {
         assertThat(driver.findElement(By.cssSelector("h1")).getText(), is("About Selenium"));
+        driver.close();
     }
 }
