@@ -19,6 +19,8 @@ public class ControladorTest {
     @Test
     public void checkContructor(){
         assertNotNull(c.getModelo());
+        assertNotNull(c.getDatosProcesados());
+        assertEquals(0,c.getDatosProcesados().size());
     }
     @Test
     public void checkModel(){
@@ -34,9 +36,12 @@ public class ControladorTest {
         List<String> listadoEsperado = new ArrayList<String>();
         listadoEsperado.add("Uno");
         listadoEsperado.add("Dos");
+        listadoEsperado.add("Tres");
         when(modeloMockeado.list()).thenReturn(listadoEsperado);
         c.list();
         assertEquals("Uno1",c.getDatosProcesados().get(0));
         assertEquals("Dos1",c.getDatosProcesados().get(1));
+        assertEquals("Tres1",c.getDatosProcesados().get(2));
+        assertEquals(3,c.getDatosProcesados().size());
     }
 }

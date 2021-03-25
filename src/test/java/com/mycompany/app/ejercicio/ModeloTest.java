@@ -16,6 +16,8 @@ public class ModeloTest {
     public void testConstructor(){
         assertNotNull(modelo.list());
         assertEquals(2,modelo.list().size());
+        assertEquals("uno",modelo.list().get(0));
+        assertEquals("dos",modelo.list().get(1));
     }
 }
 

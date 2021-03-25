@@ -8,8 +8,8 @@ public class Modelo {
 
     public Modelo(){
         listado = new ArrayList<String>();
-        listado.add("uno");
-        listado.add("dos");
+        listado.add("UnValor");
+        listado.add("OtroValor");
     }
     public List<String> list (){
         return listado;
