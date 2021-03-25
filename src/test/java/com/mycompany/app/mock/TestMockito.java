@@ -1,4 +1,4 @@
-package com.mycompany.app;
+package com.mycompany.app.mock;
 
 import static org.mockito.Mockito.*;
 

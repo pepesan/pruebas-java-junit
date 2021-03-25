@@ -1,5 +1,7 @@
-package com.mycompany.app;
+package com.mycompany.app.mock;
 
+import com.mycompany.app.Principal;
+import com.mycompany.app.Secundaria;
 import org.junit.Test;
 
 import java.util.ArrayList;
