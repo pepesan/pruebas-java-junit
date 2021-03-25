@@ -55,7 +55,7 @@ public class TestMockito {
         verify(mockedList).get(0);
         //stubbing using built-in anyInt() argument matcher
         when(mockedList.get(anyInt())).thenReturn("element");
-
+        System.out.println(mockedList.get(999));
     }
     @Test
     public void testCount(){
@@ -142,6 +142,7 @@ public class TestMockito {
 
         //prints "one" - the first element of a list
         System.out.println(spy.get(0));
+        System.out.println(spy.get(1));
 
         //size() method was stubbed - 100 is printed
         System.out.println(spy.size());

@@ -2,19 +2,19 @@ package com.mycompany.app;
 
 import org.junit.*;
 
-import java.io.Closeable;
+
 import java.io.IOException;
 
 /**
  * Created by pepesan on 8/6/15.
  */
 public class TestJunitFixtures {
-    static class ExpensiveManagedResource implements Closeable {
+    static class ExpensiveManagedResource  {
 
         public void close() throws IOException {}
     }
 
-    static class ManagedResource implements Closeable {
+    static class ManagedResource  {
         public void close() throws IOException {}
     }
 
