@@ -12,12 +12,11 @@ public class Controlador {
         datosProcesados = new ArrayList<String>();
     }
     public void list(){
-        List<String> listado = modelo.list();
-        for (String item: listado) {
+        datosProcesados = modelo.list();
+        processData();
+        for (String item: datosProcesados) {
             System.out.println(item);
         }
-        datosProcesados = listado;
-        processData();
     }
     public void processData(){
         int index = 0;
