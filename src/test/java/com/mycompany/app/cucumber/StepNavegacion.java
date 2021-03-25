@@ -23,6 +23,8 @@ public class StepNavegacion {
 
     @Given("^Estando en la página principal$")
     public void estandoEnLaPáginaPrincipal() {
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+
         driver = new ChromeDriver();
         js = (JavascriptExecutor) driver;
         vars = new HashMap<String, Object>();

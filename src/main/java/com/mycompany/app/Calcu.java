@@ -1,7 +1,7 @@
 package com.mycompany.app;
 
 public class Calcu {
-    public int add(int i, int j) {
+    public static int add(int i, int j) {
         return i+j;
     }
 
