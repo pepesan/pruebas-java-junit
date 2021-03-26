@@ -32,7 +32,9 @@ public class LoginfalidoGridTest {
   JavascriptExecutor js;
   @Before
   public void setUp() throws MalformedURLException {
-    driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), DesiredCapabilities.firefox());
+    driver = new RemoteWebDriver(
+            new URL("http://localhost:4444/wd/hub"),
+            DesiredCapabilities.firefox());
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
     driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
