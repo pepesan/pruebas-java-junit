@@ -27,7 +27,7 @@ public class StepNavegacionmain {
     driver = new ChromeDriver();
     js = (JavascriptExecutor) driver;
     vars = new HashMap<String, Object>();
-    driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
   }
   @After
   public void tearDown() {
