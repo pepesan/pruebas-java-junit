@@ -13,6 +13,12 @@
 * sudo chown root:root /usr/bin/geckodriver
 * sudo chmod +x /usr/bin/geckodriver
 
+# Installation PhantomJS
+* Download the appropiated version of [PhantomJS](https://phantomjs.org/download.html)
+* unzip the file
+* sudo ln -sf /path/to/phantomjs /usr/bin
+
+
 # Launching tests
 <code> mvn test</code>
 
