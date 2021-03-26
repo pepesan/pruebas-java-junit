@@ -23,6 +23,6 @@ public class StepDefinitions {
 
     @Then("^debería devolver (\\d+)$")
     public void deberiaDevolver(int c) {
-        assertEquals(this.c, c);
+        assertEquals( c,this.c);
     }
 }
