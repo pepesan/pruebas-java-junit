@@ -20,7 +20,9 @@
 
 
 # Launching tests
-<code> mvn test</code>
+<code> mvn test</code> // All tests
+<code>mvn -Dtest=AppTest#testApp test</code> // Specific Test
+<code>mvn -Dtest=RunCucumberTest test</code> // Cucumbers Tests
 
 # Installing v3 Grid + Node
 * Download the appropiated version of [Selenium Grid](https://www.selenium.dev/downloads/)
