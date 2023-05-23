@@ -1,0 +1,14 @@
+execution:
+  - executor: selenium
+    scenario: simple
+    ramp-up: 1m
+    runner: junit
+    hold-for: 30s
+
+
+scenarios:
+  simple:
+    browser: Firefox
+    timeout: 10
+    think-time: 1s500ms
+    script: ./src/test/java/com/mycompany/app/seleniumide/WebsocketTest.java

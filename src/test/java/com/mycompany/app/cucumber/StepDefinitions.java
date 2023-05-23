@@ -1,8 +1,10 @@
-package com.mycompany.app;
+package com.mycompany.app.cucumber;
 
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import com.mycompany.app.Calculadora;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
 
 import static org.junit.Assert.assertEquals;
 
@@ -22,6 +24,6 @@ public class StepDefinitions {
 
     @Then("^debería devolver (\\d+)$")
     public void deberiaDevolver(int c) {
-        assertEquals(this.c, c);
+        assertEquals( c,this.c);
     }
 }

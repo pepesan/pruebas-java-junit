@@ -1,5 +1,6 @@
-package com.mycompany.app;
+package com.mycompany.app.asserts;
 
+import com.mycompany.app.Cliente;
 import org.junit.Test;
 
 import java.util.Date;

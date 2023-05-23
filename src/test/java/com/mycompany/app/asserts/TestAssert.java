@@ -1,7 +1,4 @@
-package com.mycompany.app;
-
-
-
+package com.mycompany.app.asserts;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
